@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -13,6 +13,25 @@
 		3E7DD2E1262A98B1006C0484 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3E7DD2E0262A98B1006C0484 /* Preview Assets.xcassets */; };
 		3E7DD2EC262A98B1006C0484 /* MakeItSoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7DD2EB262A98B1006C0484 /* MakeItSoTests.swift */; };
 		3E7DD2F7262A98B1006C0484 /* MakeItSoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E7DD2F6262A98B1006C0484 /* MakeItSoUITests.swift */; };
+		3E9C83A22631319A0014B3BB /* Resolver.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83A12631319A0014B3BB /* Resolver.swift */; };
+		3E9C83C0263132000014B3BB /* Task.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83BF263132000014B3BB /* Task.swift */; };
+		3E9C83C62631322A0014B3BB /* FirestoreTaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83C52631322A0014B3BB /* FirestoreTaskRepository.swift */; };
+		3E9C83CB263132650014B3BB /* TaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83CA263132650014B3BB /* TaskRepository.swift */; };
+		3E9C83D02631328B0014B3BB /* TestDataTaskRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83CF2631328B0014B3BB /* TestDataTaskRepository.swift */; };
+		3E9C83D6263132C50014B3BB /* AuthenticationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83D5263132C50014B3BB /* AuthenticationService.swift */; };
+		3E9C83DB263132EB0014B3BB /* SignInWithAppleCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83DA263132EB0014B3BB /* SignInWithAppleCoordinator.swift */; };
+		3E9C83E1263133210014B3BB /* EnvironmentKeys.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83E0263133210014B3BB /* EnvironmentKeys.swift */; };
+		3E9C83E82631334C0014B3BB /* SettingsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83E72631334C0014B3BB /* SettingsViewModel.swift */; };
+		3E9C83ED2631336E0014B3BB /* TaskCellViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83EC2631336E0014B3BB /* TaskCellViewModel.swift */; };
+		3E9C83F2263133880014B3BB /* TaskListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83F1263133880014B3BB /* TaskListViewModel.swift */; };
+		3E9C83F8263133A90014B3BB /* AccountSection.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83F7263133A90014B3BB /* AccountSection.swift */; };
+		3E9C83FD263133D50014B3BB /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C83FC263133D50014B3BB /* SettingsView.swift */; };
+		3E9C8402263133F70014B3BB /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C8401263133F70014B3BB /* SignInView.swift */; };
+		3E9C8407263134140014B3BB /* SignInWithAppleButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C8406263134140014B3BB /* SignInWithAppleButton.swift */; };
+		3E9C840C263134300014B3BB /* TaskCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C840B263134300014B3BB /* TaskCell.swift */; };
+		3E9C84112631344E0014B3BB /* TaskListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3E9C84102631344E0014B3BB /* TaskListView.swift */; };
+		3E9C8416263134960014B3BB /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 3E9C8415263134960014B3BB /* GoogleService-Info.plist */; };
+		8493A2EAF6EC56F99E4E6C67 /* Pods_MakeItSo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7999A2A8CAB8CD00278142D2 /* Pods_MakeItSo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +64,27 @@
 		3E7DD2F2262A98B1006C0484 /* MakeItSoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MakeItSoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3E7DD2F6262A98B1006C0484 /* MakeItSoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MakeItSoUITests.swift; sourceTree = "<group>"; };
 		3E7DD2F8262A98B1006C0484 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3E9C83A12631319A0014B3BB /* Resolver.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Resolver.swift; sourceTree = "<group>"; };
+		3E9C83BF263132000014B3BB /* Task.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Task.swift; sourceTree = "<group>"; };
+		3E9C83C52631322A0014B3BB /* FirestoreTaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirestoreTaskRepository.swift; sourceTree = "<group>"; };
+		3E9C83CA263132650014B3BB /* TaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskRepository.swift; sourceTree = "<group>"; };
+		3E9C83CF2631328B0014B3BB /* TestDataTaskRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestDataTaskRepository.swift; sourceTree = "<group>"; };
+		3E9C83D5263132C50014B3BB /* AuthenticationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AuthenticationService.swift; sourceTree = "<group>"; };
+		3E9C83DA263132EB0014B3BB /* SignInWithAppleCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleCoordinator.swift; sourceTree = "<group>"; };
+		3E9C83E0263133210014B3BB /* EnvironmentKeys.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EnvironmentKeys.swift; sourceTree = "<group>"; };
+		3E9C83E72631334C0014B3BB /* SettingsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsViewModel.swift; sourceTree = "<group>"; };
+		3E9C83EC2631336E0014B3BB /* TaskCellViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCellViewModel.swift; sourceTree = "<group>"; };
+		3E9C83F1263133880014B3BB /* TaskListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListViewModel.swift; sourceTree = "<group>"; };
+		3E9C83F7263133A90014B3BB /* AccountSection.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AccountSection.swift; sourceTree = "<group>"; };
+		3E9C83FC263133D50014B3BB /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		3E9C8401263133F70014B3BB /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		3E9C8406263134140014B3BB /* SignInWithAppleButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInWithAppleButton.swift; sourceTree = "<group>"; };
+		3E9C840B263134300014B3BB /* TaskCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskCell.swift; sourceTree = "<group>"; };
+		3E9C84102631344E0014B3BB /* TaskListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TaskListView.swift; sourceTree = "<group>"; };
+		3E9C8415263134960014B3BB /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		4B68EAAD8028E5680154202B /* Pods-MakeItSo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItSo.release.xcconfig"; path = "Target Support Files/Pods-MakeItSo/Pods-MakeItSo.release.xcconfig"; sourceTree = "<group>"; };
+		7999A2A8CAB8CD00278142D2 /* Pods_MakeItSo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_MakeItSo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		935C06F631E7DAF5CF3CE61C /* Pods-MakeItSo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-MakeItSo.debug.xcconfig"; path = "Target Support Files/Pods-MakeItSo/Pods-MakeItSo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -52,6 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8493A2EAF6EC56F99E4E6C67 /* Pods_MakeItSo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -72,6 +113,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		1E1F057156A9CAE4422029C0 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7999A2A8CAB8CD00278142D2 /* Pods_MakeItSo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3B70FCB2608E5D4D9D34F729 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				935C06F631E7DAF5CF3CE61C /* Pods-MakeItSo.debug.xcconfig */,
+				4B68EAAD8028E5680154202B /* Pods-MakeItSo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 		3E7DD2CD262A98AB006C0484 = {
 			isa = PBXGroup;
 			children = (
@@ -79,6 +137,8 @@
 				3E7DD2EA262A98B1006C0484 /* MakeItSoTests */,
 				3E7DD2F5262A98B1006C0484 /* MakeItSoUITests */,
 				3E7DD2D7262A98AB006C0484 /* Products */,
+				3B70FCB2608E5D4D9D34F729 /* Pods */,
+				1E1F057156A9CAE4422029C0 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -95,6 +155,14 @@
 		3E7DD2D8262A98AB006C0484 /* MakeItSo */ = {
 			isa = PBXGroup;
 			children = (
+				3E9C8415263134960014B3BB /* GoogleService-Info.plist */,
+				3E9C83F62631339B0014B3BB /* Views */,
+				3E9C83E5263133380014B3BB /* ViewModels */,
+				3E9C83DF263133160014B3BB /* Utilities */,
+				3E9C83D4263132B80014B3BB /* Services */,
+				3E9C83C42631321C0014B3BB /* Repositories */,
+				3E9C83BE263131F00014B3BB /* Models */,
+				3E9C83A02631318C0014B3BB /* Core */,
 				3E7DD2D9262A98AB006C0484 /* MakeItSoApp.swift */,
 				3E7DD2DB262A98AB006C0484 /* ContentView.swift */,
 				3E7DD2DD262A98B1006C0484 /* Assets.xcassets */,
@@ -130,6 +198,72 @@
 			path = MakeItSoUITests;
 			sourceTree = "<group>";
 		};
+		3E9C83A02631318C0014B3BB /* Core */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C83A12631319A0014B3BB /* Resolver.swift */,
+			);
+			path = Core;
+			sourceTree = "<group>";
+		};
+		3E9C83BE263131F00014B3BB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C83BF263132000014B3BB /* Task.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		3E9C83C42631321C0014B3BB /* Repositories */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C83C52631322A0014B3BB /* FirestoreTaskRepository.swift */,
+				3E9C83CA263132650014B3BB /* TaskRepository.swift */,
+				3E9C83CF2631328B0014B3BB /* TestDataTaskRepository.swift */,
+			);
+			path = Repositories;
+			sourceTree = "<group>";
+		};
+		3E9C83D4263132B80014B3BB /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C83D5263132C50014B3BB /* AuthenticationService.swift */,
+				3E9C83DA263132EB0014B3BB /* SignInWithAppleCoordinator.swift */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		3E9C83DF263133160014B3BB /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C83E0263133210014B3BB /* EnvironmentKeys.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		3E9C83E5263133380014B3BB /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C83E72631334C0014B3BB /* SettingsViewModel.swift */,
+				3E9C83EC2631336E0014B3BB /* TaskCellViewModel.swift */,
+				3E9C83F1263133880014B3BB /* TaskListViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		3E9C83F62631339B0014B3BB /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E9C83F7263133A90014B3BB /* AccountSection.swift */,
+				3E9C8406263134140014B3BB /* SignInWithAppleButton.swift */,
+				3E9C83FC263133D50014B3BB /* SettingsView.swift */,
+				3E9C8401263133F70014B3BB /* SignInView.swift */,
+				3E9C840B263134300014B3BB /* TaskCell.swift */,
+				3E9C84102631344E0014B3BB /* TaskListView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,9 +271,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3E7DD2FB262A98B1006C0484 /* Build configuration list for PBXNativeTarget "MakeItSo" */;
 			buildPhases = (
+				E383E43548CFA1EF9D66CD5A /* [CP] Check Pods Manifest.lock */,
 				3E7DD2D2262A98AB006C0484 /* Sources */,
 				3E7DD2D3262A98AB006C0484 /* Frameworks */,
 				3E7DD2D4262A98AB006C0484 /* Resources */,
+				A46DCBADB6F406B733273B07 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -235,6 +371,7 @@
 			files = (
 				3E7DD2E1262A98B1006C0484 /* Preview Assets.xcassets in Resources */,
 				3E7DD2DE262A98B1006C0484 /* Assets.xcassets in Resources */,
+				3E9C8416263134960014B3BB /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,13 +391,72 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		A46DCBADB6F406B733273B07 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MakeItSo/Pods-MakeItSo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-MakeItSo/Pods-MakeItSo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-MakeItSo/Pods-MakeItSo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E383E43548CFA1EF9D66CD5A /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-MakeItSo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		3E7DD2D2262A98AB006C0484 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E9C83FD263133D50014B3BB /* SettingsView.swift in Sources */,
+				3E9C83CB263132650014B3BB /* TaskRepository.swift in Sources */,
+				3E9C83F8263133A90014B3BB /* AccountSection.swift in Sources */,
+				3E9C83C0263132000014B3BB /* Task.swift in Sources */,
+				3E9C83A22631319A0014B3BB /* Resolver.swift in Sources */,
+				3E9C83DB263132EB0014B3BB /* SignInWithAppleCoordinator.swift in Sources */,
+				3E9C83C62631322A0014B3BB /* FirestoreTaskRepository.swift in Sources */,
+				3E9C83E1263133210014B3BB /* EnvironmentKeys.swift in Sources */,
+				3E9C83F2263133880014B3BB /* TaskListViewModel.swift in Sources */,
+				3E9C83D02631328B0014B3BB /* TestDataTaskRepository.swift in Sources */,
 				3E7DD2DC262A98AB006C0484 /* ContentView.swift in Sources */,
+				3E9C83E82631334C0014B3BB /* SettingsViewModel.swift in Sources */,
+				3E9C83ED2631336E0014B3BB /* TaskCellViewModel.swift in Sources */,
 				3E7DD2DA262A98AB006C0484 /* MakeItSoApp.swift in Sources */,
+				3E9C84112631344E0014B3BB /* TaskListView.swift in Sources */,
+				3E9C8402263133F70014B3BB /* SignInView.swift in Sources */,
+				3E9C83D6263132C50014B3BB /* AuthenticationService.swift in Sources */,
+				3E9C840C263134300014B3BB /* TaskCell.swift in Sources */,
+				3E9C8407263134140014B3BB /* SignInWithAppleButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +610,7 @@
 		};
 		3E7DD2FC262A98B1006C0484 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 935C06F631E7DAF5CF3CE61C /* Pods-MakeItSo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -436,6 +633,7 @@
 		};
 		3E7DD2FD262A98B1006C0484 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B68EAAD8028E5680154202B /* Pods-MakeItSo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;

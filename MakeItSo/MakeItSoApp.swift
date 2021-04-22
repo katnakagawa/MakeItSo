@@ -6,12 +6,24 @@
 //
 
 import SwiftUI
+import Firebase
+import Resolver
+import FirebaseFunctions
 
 @main
 struct MakeItSoApp: App {
+    
+    @LazyInjected var authenticationService: AuthenticationService
+
+    init() {
+        FirebaseApp.configure()
+        
+        authenticationService.signIn()
+    }
+    
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            TaskListView()
         }
     }
 }
